@@ -1,0 +1,18 @@
+.projects {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+}
+
+.project {
+	max-width: 370px;
+	background-color: var(--project-card-bg);
+	box-shadow: var(--box-shadow);
+	border-radius: 10px;
+}
+
+.project__img {
+	border-radius: 10px;
+}
